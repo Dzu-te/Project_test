@@ -1,21 +1,42 @@
 .header {
-  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: fixed;
+  width: 100%;
 }
 
-.nav-list {
+.header .container {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+.header-nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-end;
+}
+
+.header .finance {
+  color: #fff;
+}
+
+.finance {
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.nav-span {
+  color: #28a745;
+}
+
+.header-list {
+  align-items: center;
+  display: flex;
   gap: 40px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-link {
+  color: #fff;
+  line-height: 1.56;
 }
